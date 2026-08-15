@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- ترميز الأحرف UTF-8 عشان يدعم العربي والرموز الخاصة -->
+  <meta charset="utf-8" />
+  <!-- أيقونة الموقع (الفافيكون) اللي تطلع فوق بالتاب -->
+  <link rel="icon" href="%PUBLIC_URL%/favicon.jpeg" />
+  <!-- إعدادات العرض عشان الموقع يتجاوب مع كل الشاشات (جوال، تابلت...) -->
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <!-- لون شريط المتصفح اللي يطلع فوق لما تفتح الموقع من الجوال -->
+  <meta name="theme-color" content="#000000" />
+  <!-- اسم اللي سوى الموقع -->
+  <meta name="author" content="Awad Alnahdi">
+  <!-- الكلمات المفتاحية اللي تساعد محركات البحث تلقى الموقع -->
+  <meta name="keywords" content="Awad Alnahdi, reactjs, website">
+
+  <!-- عنوان الصفحة اللي يبين فوق بالتاب -->
+  <title>Fatoni Shop</title>
+  <!-- عنوان الموقع لمحركات البحث ومنصات التواصل -->
+  <meta name="title" content="Fatoni University Shop">
+  <!-- وصف بسيط عن الموقع يطلع بنتائج البحث بقوقل -->
+  <meta name="description" content="A Fatoni Website made with React.js Framework.">
+
+  <!-- جايبين ملف تنسيقات Bootstrap من النت (CDN) عشان نصمم شكل الصفحة -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <!-- جايبين مكتبة Font Awesome عشان نستخدم الأيقونات (Icons) بالموقع -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+    integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+  <!-- هذي الرسالة تطلع بس لو الجافاسكربت مقفل بالمتصفح -->
+  <noscript>You need to enable JavaScript to run this app.</noscript>
+
+  <!-- هذا العنصر هو الأساس (Root) اللي React يحط فيه كل التطبيق -->
+  <div id="root"></div>
+
+
+  <!-- مكتبة jQuery (نسخة خفيفة) لازمة عشان بعض مكونات Bootstrap تشتغل صح -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+  <!-- مكتبة Popper.js مسؤولة عن مكان العناصر المنبثقة زي القوائم والتلميحات (Tooltips/Dropdowns) -->
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+  <!-- ملف جافاسكربت الخاص بـ Bootstrap عشان يشغّل التفاعلات زي القوائم المنسدلة والنوافذ المنبثقة -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
